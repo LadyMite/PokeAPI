@@ -1,23 +1,13 @@
-import axios from "axios";
+import axios from 'axios';
 
-const API_URL = 'https://pokeapi.co/api/v2/pokemon';
+// Obtener los primeros 10 Pokémon
+export const getPokemons = async () => {
+  const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=10');
+  return response.data.results;
+};
 
-export const getPokemonList = async (limit = 10) => {
-    try {
-      const response = await axios.get(`${API_URL}?limit=${limit}`);
-      return response.data.results;
-    } catch (error) {
-      console.error('Error fetching pokemons:', error);
-      throw error;
-    }
-  };
-  
-  export const getPokemonDetails = async (url: string) => {
-    try {
-      const response = await axios.get(url);
-      return response.data;
-    } catch (error) {
-      console.error('Error fetching pokemon details:', error);
-      throw error;
-    }
-  };
+// Obtener los detalles de un Pokémon
+export const getPokemonDetails = async (url: string) => {
+  const response = await axios.get(url);
+  return response.data;
+};
