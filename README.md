@@ -14,6 +14,7 @@
 Inicia el proyecto con:
 ```terminal
 npm run dev
+
 Se abrirá automáticamente el navegador y podrás seleccionar un Pokémon de la lista.
 
 Al hacer clic en un Pokémon, sus detalles se mostrarán en el lado derecho de la pantalla.
