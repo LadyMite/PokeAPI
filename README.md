@@ -12,6 +12,7 @@
    
 🚀 Ejecutar la aplicación
 Inicia el proyecto con:
+```terminal
 npm run dev
 Se abrirá automáticamente el navegador y podrás seleccionar un Pokémon de la lista.
 
