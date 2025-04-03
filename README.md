@@ -13,10 +13,9 @@
 🚀 Ejecutar la aplicación
 Inicia el proyecto con:
 
-bash
-Copiar
-Editar
-npm run dev
+   ```terminal
+   npm run dev
+
 👀 Visualización del proyecto
 Se abrirá automáticamente el navegador y podrás seleccionar un Pokémon de la lista.
 
