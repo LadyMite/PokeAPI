@@ -2,6 +2,9 @@
 
 ### 📥 Descargar el proyecto
 1. Descarga y extrae el archivo **ZIP** del repositorio.
+2. O descaragar solo archivo Src si previamente ya se tiene instalado el nodejs  https://nodejs.org/ verificar instalacion y version    
+```terminal
+   npm -v
 
 ### 🛠️ Configurar el entorno
 1. Abre el proyecto en **VSCode**.
